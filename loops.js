@@ -1,8 +1,7 @@
 function forLoop(){
-  const list= [];
-    const t = 10
-  for(let i = 0; i < t; i++){
+  const listArray= [];
+  for(let i = 0; i < 25; i++){
     list.push(`I am ${i} strange loop.`)
   }
-  return [list, t]
+  return list
 }
